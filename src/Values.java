@@ -15,7 +15,7 @@ public class Values {
     public static int size;
     public static double[][] a;
     public static double[] b;
-    public static double accuracy;
+    public static float accuracy;
 
     public static void getValues(){
         String option;
@@ -128,5 +128,23 @@ public class Values {
     }
     private static void randWrite(){//TODO определить randWrite
 
+    }
+
+    public static void show(){
+        System.out.printf("Точность: %.15f%n", accuracy);
+        System.out.printf("Размер матрицы: %d%n", size);
+        System.out.print("Массив b: ");
+        for(int i = 0; i<size; i++){
+            System.out.print(b[i]+" ");
+        }
+        System.out.println();
+        System.out.println("Матрица b: ");
+        for(int i = 0; i<size; i++){
+            for(int j = 0; j<size; j++){
+                System.out.print(a[i][j]+" ");
+            }
+            System.out.println();
+        }
+        System.out.println();
     }
 }

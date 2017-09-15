@@ -4,6 +4,7 @@
 public class Main {
     public static void main(String[] args){
         Values.getValues();
+        Values.show();
         Solution.checkDiagDomin(Values.a);
         Solution.solve(Values.size,Values.a, Values.b, Values.accuracy);
         Result.show();
