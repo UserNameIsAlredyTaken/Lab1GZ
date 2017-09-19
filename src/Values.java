@@ -1,8 +1,6 @@
 import com.sun.org.apache.xpath.internal.SourceTree;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import java.io.*;
 import java.net.InetAddress;
 import java.util.Scanner;
 
@@ -45,7 +43,9 @@ public class Values {
                         System.out.println("Неверно введёные данные, попробуйте ещё раз");
                         break;
                 }
-            }catch (Exception e){ e.printStackTrace();}
+            }catch (Exception e){
+                e.printStackTrace();
+            }
         }
     }
 
@@ -123,7 +123,34 @@ public class Values {
         }
 
     }
-    private static void fileWrite(){//TODO определить fileWrite
+    private static void fileWrite(){
+        try {
+            BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream("input.txt")));
+            String accString;
+            //accString = reader.readLine();
+            accuracy = Float.parseFloat(reader.readLine());
+            size = Integer.parseInt(reader.readLine());
+            String[] bString = new String[size];
+            b = new double[size];
+            bString = reader.readLine().split(" ");
+            for (int i = 0; i < size; i++) {
+                b[i] = Double.parseDouble(bString[i]);
+            }
+            String[] aString = new String[size];
+            a = new double[size][size];
+            for(int i = 0; i < size; i++){
+                aString = reader.readLine().split(" ");
+                for (int j = 0; j < size; j++) {
+                    a[i][j] = Double.parseDouble(aString[j]);
+                }
+            }
+        }catch(FileNotFoundException fnfe){
+            fnfe.printStackTrace();
+            System.exit(0);
+        }catch(IOException ioe){
+            ioe.printStackTrace();
+            System.exit(0);
+        }
 
     }
     private static void randWrite(){//TODO определить randWrite
