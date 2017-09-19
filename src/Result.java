@@ -1,10 +1,12 @@
+import java.util.ArrayList;
+
 /**
  * Created by danil on 15.09.2017.
  */
 public class Result {
     public double[] x;
     public int iterCount;
-    public double[] errors = new double[100];//TODO исправить инициализацию вот тут
+    ArrayList<Double> errors = new ArrayList<>();
 
     public void show(){
         System.out.print("Ответ: ");
@@ -16,7 +18,7 @@ public class Result {
 
         System.out.println("Погрешности: ");
         for(int i=0;i<iterCount;i++){
-            System.out.println(errors[i]+" ");
+            System.out.println(errors.get(i)+" ");
         }
 
     }

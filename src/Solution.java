@@ -28,8 +28,8 @@ public class Solution{
         for(int i = 0;i<Values.size;i++){
             sqrSum+=Math.pow(xToday[i]-xYesterday[i],2);
         }
-        res.errors[res.iterCount]=Math.sqrt(sqrSum);
-        if(res.errors[res.iterCount]>=acc){
+        res.errors.add(Math.sqrt(sqrSum));
+        if(Math.sqrt(sqrSum)>=acc){
             return false;
         }
         return true;
@@ -37,7 +37,7 @@ public class Solution{
     public static Result solve(int n, double[][] a, double[] b, double acc, Result res){
         double[] xToday = new double[n];
         double[] xYesterday = new double[n];
-        while(!enough(xToday, xYesterday, acc, res)){
+        do{
             res.iterCount++;
             xYesterday= Arrays.copyOf(xToday, n);
             for(int i = 0; i<n; i++){
@@ -50,7 +50,7 @@ public class Solution{
                 }
                 xToday[i]=(b[i]-multiplicationsSum)/a[i][i];
             }
-        }
+        }while(!enough(xToday, xYesterday, acc, res));
         res.x=xToday;
         return res;
     }
