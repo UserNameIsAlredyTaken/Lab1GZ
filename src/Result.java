@@ -20,6 +20,5 @@ public class Result {
         for(int i=0;i<iterCount;i++){
             System.out.println(errors.get(i)+" ");
         }
-
     }
 }
