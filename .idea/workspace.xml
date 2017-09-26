@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f85a634d-bc16-4ef1-b355-cb0da3f9b809" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Lab1GZ/Main.class" afterPath="$PROJECT_DIR$/out/production/Lab1GZ/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Lab1GZ/Result.class" afterPath="$PROJECT_DIR$/out/production/Lab1GZ/Result.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Lab1GZ/Solution.class" afterPath="$PROJECT_DIR$/out/production/Lab1GZ/Solution.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input.txt" afterPath="$PROJECT_DIR$/input.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Result.java" afterPath="$PROJECT_DIR$/src/Result.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Solution.java" afterPath="$PROJECT_DIR$/src/Solution.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Values.java" afterPath="$PROJECT_DIR$/src/Values.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,15 +28,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Values.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Values.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Values.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="125" column="35" lean-forward="false" selection-start-line="125" selection-start-column="35" selection-end-line="125" selection-end-column="35" />
+            <state relative-caret-position="318">
+              <caret line="171" column="33" lean-forward="false" selection-start-line="171" selection-start-column="33" selection-end-line="171" selection-end-column="33" />
               <folding>
                 <element signature="docComment;class#Values#0" expanded="false" />
-                <element signature="method#getValues#0;class#Values#0" expanded="false" />
-                <element signature="method#handWrite#0;class#Values#0" expanded="false" />
                 <element signature="method#fileWrite#0;class#Values#0" expanded="false" />
                 <element signature="method#show#0;class#Values#0" expanded="false" />
               </folding>
@@ -60,16 +52,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-273">
-              <caret line="43" column="40" lean-forward="false" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="40" />
+            <state relative-caret-position="483">
+              <caret line="99" column="40" lean-forward="false" selection-start-line="99" selection-start-column="40" selection-end-line="99" selection-end-column="40" />
               <folding>
                 <element signature="docComment;class#Solution#0" expanded="false" />
                 <element signature="method#checkDiagDomin#0;class#Solution#0" expanded="false" />
-                <element signature="method#enough#0;class#Solution#0" expanded="false" />
-                <element signature="method#solve#0;class#Solution#0" expanded="false" />
+                <element signature="method#greatestInTheRow#0;class#Solution#0" expanded="false" />
+                <element signature="method#posibleToDiagDom#0;class#Solution#0" expanded="false" />
+                <element signature="method#makeDiagDom#0;class#Solution#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -78,8 +71,8 @@
       <file leaf-file-name="Result.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Result.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="9" lean-forward="false" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+            <state relative-caret-position="21">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding>
                 <element signature="docComment;class#Result#0" expanded="false" />
               </folding>
@@ -118,11 +111,11 @@
       <list>
         <option value="$PROJECT_DIR$/src/Iteration.java" />
         <option value="$PROJECT_DIR$/src/In.java" />
-        <option value="$PROJECT_DIR$/src/Values.java" />
         <option value="$PROJECT_DIR$/src/Result.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/input.txt" />
         <option value="$PROJECT_DIR$/src/Solution.java" />
+        <option value="$PROJECT_DIR$/src/Values.java" />
       </list>
     </option>
   </component>
@@ -755,12 +748,14 @@
       <workItem from="1505391136212" duration="27286000" />
       <workItem from="1505805179685" duration="170000" />
       <workItem from="1505846364347" duration="9372000" />
-      <workItem from="1505912267815" duration="11187000" />
+      <workItem from="1505912267815" duration="11777000" />
+      <workItem from="1505977456476" duration="301000" />
+      <workItem from="1506440816266" duration="3073000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48015000" />
+    <option name="totallyTimeSpent" value="51979000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -773,7 +768,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -785,7 +779,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49716875" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.74178934" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -797,7 +791,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5390713" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38618347" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -815,7 +809,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="21" />
+      <option name="time" value="22" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -824,6 +818,114 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+          <folding>
+            <element signature="docComment;class#Main#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Values.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2625">
+          <caret line="125" column="35" lean-forward="false" selection-start-line="125" selection-start-column="35" selection-end-line="125" selection-end-column="35" />
+          <folding>
+            <element signature="docComment;class#Values#0" expanded="false" />
+            <element signature="method#fileWrite#0;class#Values#0" expanded="false" />
+            <element signature="method#show#0;class#Values#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="2" lean-forward="false" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2079">
+          <caret line="99" column="40" lean-forward="false" selection-start-line="99" selection-start-column="40" selection-end-line="99" selection-end-column="40" />
+          <folding>
+            <element signature="docComment;class#Solution#0" expanded="false" />
+            <element signature="method#checkDiagDomin#0;class#Solution#0" expanded="false" />
+            <element signature="method#greatestInTheRow#0;class#Solution#0" expanded="false" />
+            <element signature="method#posibleToDiagDom#0;class#Solution#0" expanded="false" />
+            <element signature="method#makeDiagDom#0;class#Solution#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#Result#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+          <folding>
+            <element signature="docComment;class#Main#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Values.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2625">
+          <caret line="125" column="35" lean-forward="false" selection-start-line="125" selection-start-column="35" selection-end-line="125" selection-end-column="35" />
+          <folding>
+            <element signature="docComment;class#Values#0" expanded="false" />
+            <element signature="method#fileWrite#0;class#Values#0" expanded="false" />
+            <element signature="method#show#0;class#Values#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="2" lean-forward="false" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="9" lean-forward="false" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+          <folding>
+            <element signature="docComment;class#Result#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="71" column="17" lean-forward="true" selection-start-line="71" selection-start-column="17" selection-end-line="71" selection-end-column="17" />
+          <folding>
+            <element signature="docComment;class#Solution#0" expanded="false" />
+            <element signature="method#checkDiagDomin#0;class#Solution#0" expanded="false" />
+            <element signature="method#greatestInTheRow#0;class#Solution#0" expanded="false" />
+            <element signature="method#posibleToDiagDom#0;class#Solution#0" expanded="false" />
+            <element signature="method#makeDiagDom#0;class#Solution#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -849,8 +951,9 @@
           <folding>
             <element signature="docComment;class#Solution#0" expanded="false" />
             <element signature="method#checkDiagDomin#0;class#Solution#0" expanded="false" />
-            <element signature="method#enough#0;class#Solution#0" expanded="false" />
-            <element signature="method#solve#0;class#Solution#0" expanded="false" />
+            <element signature="method#greatestInTheRow#0;class#Solution#0" expanded="false" />
+            <element signature="method#posibleToDiagDom#0;class#Solution#0" expanded="false" />
+            <element signature="method#makeDiagDom#0;class#Solution#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -871,8 +974,6 @@
           <caret line="140" column="42" lean-forward="true" selection-start-line="140" selection-start-column="42" selection-end-line="140" selection-end-column="42" />
           <folding>
             <element signature="docComment;class#Values#0" expanded="false" />
-            <element signature="method#getValues#0;class#Values#0" expanded="false" />
-            <element signature="method#handWrite#0;class#Values#0" expanded="false" />
             <element signature="method#fileWrite#0;class#Values#0" expanded="false" />
             <element signature="method#show#0;class#Values#0" expanded="false" />
           </folding>
@@ -896,8 +997,9 @@
           <folding>
             <element signature="docComment;class#Solution#0" expanded="false" />
             <element signature="method#checkDiagDomin#0;class#Solution#0" expanded="false" />
-            <element signature="method#enough#0;class#Solution#0" expanded="false" />
-            <element signature="method#solve#0;class#Solution#0" expanded="false" />
+            <element signature="method#greatestInTheRow#0;class#Solution#0" expanded="false" />
+            <element signature="method#posibleToDiagDom#0;class#Solution#0" expanded="false" />
+            <element signature="method#makeDiagDom#0;class#Solution#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -918,8 +1020,6 @@
           <caret line="132" column="29" lean-forward="false" selection-start-line="132" selection-start-column="29" selection-end-line="132" selection-end-column="29" />
           <folding>
             <element signature="docComment;class#Values#0" expanded="false" />
-            <element signature="method#getValues#0;class#Values#0" expanded="false" />
-            <element signature="method#handWrite#0;class#Values#0" expanded="false" />
             <element signature="method#fileWrite#0;class#Values#0" expanded="false" />
             <element signature="method#show#0;class#Values#0" expanded="false" />
           </folding>
@@ -942,8 +1042,6 @@
           <caret line="132" column="29" lean-forward="false" selection-start-line="132" selection-start-column="29" selection-end-line="132" selection-end-column="29" />
           <folding>
             <element signature="docComment;class#Values#0" expanded="false" />
-            <element signature="method#getValues#0;class#Values#0" expanded="false" />
-            <element signature="method#handWrite#0;class#Values#0" expanded="false" />
             <element signature="method#fileWrite#0;class#Values#0" expanded="false" />
             <element signature="method#show#0;class#Values#0" expanded="false" />
           </folding>
@@ -957,8 +1055,9 @@
           <folding>
             <element signature="docComment;class#Solution#0" expanded="false" />
             <element signature="method#checkDiagDomin#0;class#Solution#0" expanded="false" />
-            <element signature="method#enough#0;class#Solution#0" expanded="false" />
-            <element signature="method#solve#0;class#Solution#0" expanded="false" />
+            <element signature="method#greatestInTheRow#0;class#Solution#0" expanded="false" />
+            <element signature="method#posibleToDiagDom#0;class#Solution#0" expanded="false" />
+            <element signature="method#makeDiagDom#0;class#Solution#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1002,30 +1101,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Values.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="125" column="35" lean-forward="false" selection-start-line="125" selection-start-column="35" selection-end-line="125" selection-end-column="35" />
-          <folding>
-            <element signature="docComment;class#Values#0" expanded="false" />
-            <element signature="method#getValues#0;class#Values#0" expanded="false" />
-            <element signature="method#handWrite#0;class#Values#0" expanded="false" />
-            <element signature="method#fileWrite#0;class#Values#0" expanded="false" />
-            <element signature="method#show#0;class#Values#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Result.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="9" lean-forward="false" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-          <folding>
-            <element signature="docComment;class#Result#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -1046,13 +1121,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-273">
-          <caret line="43" column="40" lean-forward="false" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="40" />
+        <state relative-caret-position="483">
+          <caret line="99" column="40" lean-forward="false" selection-start-line="99" selection-start-column="40" selection-end-line="99" selection-end-column="40" />
           <folding>
             <element signature="docComment;class#Solution#0" expanded="false" />
             <element signature="method#checkDiagDomin#0;class#Solution#0" expanded="false" />
-            <element signature="method#enough#0;class#Solution#0" expanded="false" />
-            <element signature="method#solve#0;class#Solution#0" expanded="false" />
+            <element signature="method#greatestInTheRow#0;class#Solution#0" expanded="false" />
+            <element signature="method#posibleToDiagDom#0;class#Solution#0" expanded="false" />
+            <element signature="method#makeDiagDom#0;class#Solution#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#Result#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Values.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="171" column="33" lean-forward="false" selection-start-line="171" selection-start-column="33" selection-end-line="171" selection-end-column="33" />
+          <folding>
+            <element signature="docComment;class#Values#0" expanded="false" />
+            <element signature="method#fileWrite#0;class#Values#0" expanded="false" />
+            <element signature="method#show#0;class#Values#0" expanded="false" />
           </folding>
         </state>
       </provider>

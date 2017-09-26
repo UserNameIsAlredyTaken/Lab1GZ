@@ -154,6 +154,35 @@ public class Values {
 
     }
     private static void randWrite(){//TODO определить randWrite
+        boolean sizeIsRight = false;
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        while(!sizeIsRight){
+            try {
+                System.out.print("Введите размер матрицы: ");
+                size = Integer.parseInt(reader.readLine());
+                if ((size<=MAX_SIZE)&&(0<size)){sizeIsRight = true;}else{throw new NumberFormatException();}
+            }catch(NumberFormatException nfe){
+                System.out.println("Неверно введёные данные, попробуйте ещё раз");
+            }catch(IOException ioe){
+                ioe.printStackTrace();
+            }
+        }
+        accuracy = 0.00000000001f;
+        b = new double[size];
+        a = new double[size][size];
+        for (int i = 0; i < size; i++) {
+            b[i]= Math.random();
+        }
+        for (int i = 0; i < size; i++) {
+            double sum = Math.random()*size;
+            for(int j = 0; j < size; j++){
+                if(i==j){
+                    a[i][j]=0.6*sum;
+                }else{
+                    a[i][j]=Math.random()*0.4*sum;
+                }
+            }
+        }
 
     }
 
