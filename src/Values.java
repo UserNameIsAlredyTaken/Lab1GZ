@@ -177,9 +177,9 @@ public class Values {
             double sum = Math.random()*size;
             for(int j = 0; j < size; j++){
                 if(i==j){
-                    a[i][j]=0.6*sum;
+                    a[i][j]=0.51*sum;
                 }else{
-                    a[i][j]=Math.random()*0.4*sum;
+                    a[i][j]=Math.random()*(0.49/size)*sum;
                 }
             }
         }
